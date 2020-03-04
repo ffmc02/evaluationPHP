@@ -1,0 +1,2 @@
+[04/Mar/2020:15:27:15 +0100] [upstream] Upstream starting: /usr/alwaysdata/apache/2.4.39/bin/apache -f /home/gaetandev/admin/config/apache/apache.conf -D FOREGROUND (env: {'LANG': 'en_US.UTF-8', 'HOME': '/home/gaetandev', 'LC_ALL': 'en_US.UTF-8'}, cwd: /home/gaetandev/)
+[04/Mar/2020:15:27:15 +0100] [upstream] Upstream started PID: 2515553

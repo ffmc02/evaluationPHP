@@ -1,0 +1,5 @@
+[Wed Mar 04 15:27:15.979939 2020] [fcgid:info] [pid 2515563:tid 140172145100672] mod_fcgid: Process manager 2515563 started
+[Wed Mar 04 15:27:15.981144 2020] [mpm_event:notice] [pid 2515553:tid 140172145100672] AH00489: Apache/2.4.39 (Unix) mod_fcgid/2.3.9 configured -- resuming normal operations
+[Wed Mar 04 15:27:15.981205 2020] [mpm_event:info] [pid 2515553:tid 140172145100672] AH00490: Server built: May  2 2019 08:15:42
+[Wed Mar 04 15:27:15.981213 2020] [core:notice] [pid 2515553:tid 140172145100672] AH00094: Command line: '/usr/alwaysdata/apache/2.4.39/bin/apache -f /home/gaetandev/admin/config/apache/apache.conf -D FOREGROUND'
+[Wed Mar 04 15:27:16.211042 2020] [core:info] [pid 2515564:tid 140172017501952] [client 194.153.88.142:0] AH00128: File does not exist: /home/gaetandev/www/robots.txt
