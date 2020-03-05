@@ -47,7 +47,8 @@ if (isset($_SESSION['connect']) && $_SESSION['connect'] == 'OK'&& in_array($_SES
                                     <form method="post" name="deleteDiscForm">
                                         <input type="hidden" value="<?= $modelDetailListe->disc_id ?>" name="id">
                                         <?php if (isset($_SESSION['connect']) && $_SESSION['connect'] == 'OK' && in_array($_SESSION['access'], $authAdmin)) { ?>
-                                            <input class="btn btn-danger " type="submit" value="Suprimer" name="submit"><a href="home.php" title="retour"><button type="button" class="btn btn-primary" >Retour</button></a>
+                                        <input class="btn btn-danger " type="submit" value="Suprimer" name="submit"><a href="home.php" title="retour"><button type="button" class="btn btn-primary" >Retour</button></a>
+                                    <p class="text-danger">Si vous supprimeez ce vinyle cette acttion est définitif</p> 
                                         <?php } else {
                                             ?>
                                             <a href="home.php" title="retour"><button type="button" class="btn btn-primary" >Retour</button></a>

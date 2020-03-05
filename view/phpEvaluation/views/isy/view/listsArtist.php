@@ -32,7 +32,7 @@ if (isset($_SESSION['connect']) && $_SESSION['connect'] == 'OK' && in_array($_SE
                                 ?>
                                 <tr>  
                                     <td><?= $artistList->artist_name ?></td>
-                                    <td> <a href="modifyArtist.php?artistId=<?= $artistList->artist_id ?>" title="modification d'un artiste"> <button type="button" class="btn btn-primary" >Modifier le droit d'accées</button></a></td>
+                                    <td> <a href="modifyArtist.php?artistId=<?= $artistList->artist_id ?>" title="modification d'un artiste"> <button type="button" class="btn btn-primary" >Modifier le nom de l'artiste</button></a></td>
                                     <?php if(in_array($_SESSION['access'], $admin)) {?>
                                     <td> <a href="deleteArtist.php?artistId=<?= $artistList->artist_id ?>" title="Suprimer un artist "> <button type="button" class="btn btn-primary" >Supprimer l'utilisateur</button></a></td>
                                 <?php } ?>
